@@ -4,7 +4,7 @@
   "description": "webpack configuration",
   "main": "index.js",
   "scripts": {
-    "serve": "live-server  public/",
+    "serve": "webpack-dev-server",
     "babel": "babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch",
     "build": "webpack"
   },
